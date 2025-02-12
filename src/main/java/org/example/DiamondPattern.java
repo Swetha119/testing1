@@ -8,6 +8,7 @@ public class DiamondPattern {
         System.out.print("Enter a positive integer n: ");
         int n = scanner.nextInt();
 //comment
+
           for (int i = 1; i <= n; i++) {
             printRow(n, i);
         }
